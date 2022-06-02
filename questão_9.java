@@ -44,6 +44,7 @@ public class questão_9 {
 
 				case 4:
 					result = (int) Math.pow(num1, num2);
+					//for (int i = 1; i < num2; i++) { result = result * num1; }
 					System.out.printf("O resultado da potência é = %.2f %n", result);
 					break;
 
